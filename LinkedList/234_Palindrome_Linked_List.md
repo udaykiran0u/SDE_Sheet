@@ -1,4 +1,5 @@
 ## SOLUTION using recursion
+```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,8 +26,10 @@ public:
         return check(head,head);
     }
 };
+```
 
 ## Solution using slow-fast(middle node) & reverse linkedlist
+```cpp
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -65,7 +68,7 @@ public:
     return true;
 }
 };
-
+```
 
 # PROBLEM DESCRIPTION
 
